@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    overflow: hidden;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    display: flex;
+    width:100%;
+    height:100%;
+    background-color: rgb(60,62,66);
+}
+ #nav{
+    position:absolute ;
+    width:100%;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+    z-index: 999;
+}
+#nav img{
+height: 70px;
+
+}
+#nav #nav1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    text-transform:uppercase;
+    color: aliceblue;
+    
+}
+#nav #nav1 h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+#nav #nav2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+#nav2 i{
+    color:aliceblue;
+}
+#nav2 h1{
+    text-transform: uppercase;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#nav3{
+    width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(104, 88, 88, 0.427);
+}
+#nav3 i{
+    color:aliceblue;
+}
+ #left{
+    width:60%;
+    height:100%;
+    background-color: rgb(56, 210, 210);
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%);
+}
+ #right{
+width:40%;
+height:100%;
+background-color: rgb(44, 205, 151);
+clip-path:  polygon(5% 0, 100% 0, 100% 100%, 63% 100%); 
+
+}
+
+#main>img{
+    position: absolute;
+    top:5%;
+    left:50%;
+    height: 700px;
+z-index: 999;
+} 
+#main>h3{
+    font-size: 250px;
+    color: rgba(53, 40, 40, 0.737);
+    position:absolute;
+    top:40%;
+left:2%;
+white-space:nowrap ;
+}
+#left #left1{
+    position: absolute;
+    top:17%;
+    left:0%;
+    width:250px;
+    margin-left: 150px;
+    z-index: 999999;
+
+}
+ #left1 h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(240, 248, 255);
+}
+ #left1 h2 {
+    font-size: 40px;
+    margin:3px;
+    color: rgb(240, 248, 255);
+}
+
+ #left1 img{
+    width: 120px;
+    height:60px;
+
+}
+ #left1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+ #left1 button{
+padding:3px 20px;
+border-radius: 100px;
+background-color: rgb(43, 226, 236);
+border:none ;
+color: rgba(240, 248, 255, 0.961);
+}
+#bottom{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+}
+ #first{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+
+    
+}
+ #first #btm1 {
+    height: 40px;
+    width:40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+ #first #btm1 img{
+height:100%;
+width:100%;
+object-fit: cover;
+object-position: center;
+}
+ #first p{
+    color: #fff;
+}
+ #first #icon{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    
+    }
+ #first #icon i{
+        
+       color: aliceblue;
+    }
+    #bottom #second{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:3px;
+    }
+
+     #second #btm2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:40px;
+        width:40px;
+        border-radius: 50%;
+        border:3px solid#fff;
+
+    }
+     #second #btm2 i{
+        color:#fff;
+    }
+    
+     #second  p{
+        font-size: 10px;
+        color: #fff;
+        
+    }
+     #second p span {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    #loader{
+        top:-100;
+        position: absolute;
+        height:100vh;
+        width:100vw;
+        background-color: rgb(60,62,66) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999;
+    }
+    #loader img{
+        position: absolute;
+        height:200px;
+scale: 0.5;
+    }
+
+
+
+    
